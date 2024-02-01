@@ -1,0 +1,19 @@
+z=input()
+a=str(z)
+x=a[3::7]
+y=a[7::5]
+b=int(x)
+c=int(y)
+d=b+c+10000
+e=(d%10000)//10 #4
+f=e//100
+g=(e%100)//10
+h=e%10
+t=str(f)
+u=str(g)
+v=str(h)
+i=f+g+h
+j=(i%10)+1 #5
+k=['','A','B','C','D','E','F','G','H','I','J']
+l=k[j] #6
+print(t+u+v+str(l))
